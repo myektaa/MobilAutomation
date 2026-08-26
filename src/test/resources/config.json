@@ -1,0 +1,8 @@
+{
+  "platformName": "Android",
+  "automationName": "UiAutomator2",
+  "deviceName": "Android Emulator",
+  "appPackage": "com.farmerbb.notepad",
+  "appActivity": ".MainActivity",
+  "appiumServerUrl": "http://127.0.0.1:4723/"
+}

@@ -1,0 +1,11 @@
+{
+  "CreatePage": {
+    "addNoteButton": "new UiSelector().className(\"android.widget.Button\").instance(3)",
+    "titleField": "android.widget.EditText",
+    "contentField": "new UiSelector().className(\"android.widget.EditText\").instance(1)",
+    "saveButton": "Save",
+    "closeButton": "new UiSelector().text(\"CLOSE\")",
+    "title": "Alışveriş Listesi:",
+    "content": "Süt, Yumurta, Ekmek"
+  }
+}
