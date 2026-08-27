@@ -9,15 +9,15 @@ import virgosol.tests.exc.locator.Locator;
 public class CreatePage extends BasePage {
 
     private final By addNoteButton = AppiumBy.androidUIAutomator(Locator.get("CreatePage", "addNoteButton"));
-    private final By titleField = AppiumBy.className(Locator.get("CreatePage", "titleField"));
     private final By contentField = AppiumBy.androidUIAutomator(Locator.get("CreatePage", "contentField"));
     private final By saveButton = AppiumBy.accessibilityId(Locator.get("CreatePage", "saveButton"));
+    private final By backButton = AppiumBy.androidUIAutomator(Locator.get("CreatePage","backButton"));
     private final By closeButton = AppiumBy.androidUIAutomator(Locator.get("CreatePage", "closeButton"));
-    private final String title = Locator.get("CreatePage", "title");
+    private final By secondCloseButton = AppiumBy.androidUIAutomator(Locator.get("CreatePage", "secondCloseButton"));
     private final String content = Locator.get("CreatePage", "content");
 
     public void clickClose() {
-        driver.findElement(closeButton).click();
+        wait.until(ExpectedConditions.elementToBeClickable(closeButton)).click();
     }
 
     public CreatePage(AndroidDriver driver) {
@@ -25,23 +25,19 @@ public class CreatePage extends BasePage {
     }
 
     public void clickAddNote() {
-        driver.findElement(addNoteButton).click();
-    }
-
-    public void enterTitle() {
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(titleField)).sendKeys(title);
+        wait.until(ExpectedConditions.elementToBeClickable(addNoteButton)).click();
     }
 
     public void enterContent() {
-        driver.findElement(contentField).sendKeys(content);
+        wait.until(ExpectedConditions.elementToBeClickable(contentField)).sendKeys(content);
     }
 
     public void saveNote() {
-        driver.findElement(saveButton).click();
+        wait.until(ExpectedConditions.elementToBeClickable(saveButton)).click();
     }
 
-    public boolean isAddNoteButtonDisplayed() {
-        return driver.findElement(addNoteButton).isDisplayed();
+    public void clickBack(){
+        wait.until(ExpectedConditions.elementToBeClickable(secondCloseButton)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(backButton)).click();
     }
 }

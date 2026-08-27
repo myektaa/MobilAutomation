@@ -7,3 +7,4 @@
 * Oluşturulan Alışveriş Listesi başlıklı notun detayına gidilir
 * Notun içeriği Süt, Yumurta, Ekmek, Peynir olarak güncellenir
 * Güncellenen not listeden seçilerek silinir
+<

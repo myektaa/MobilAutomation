@@ -1,10 +1,8 @@
 # Notepad uygulaması açılır
 * Uygulama cihaz üzerinde başlatılır
-* Uygulamanın açıldığı doğrulanır
 
 # Notepad üzerinde Alışveriş Listesi başlığı ve Süt, Yumurta, Ekmek içeriği ile yeni bir not oluşturulur
 * Yeni not ekleme butonuna tıklanır
-* Başlık alanına Alışveriş Listesi yazılır
 * İçerik alanına Süt, Yumurta, Ekmek yazılır
 * Not kaydedilir, ana listeye dönülür ve not doğrulanır
 

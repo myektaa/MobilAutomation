@@ -1,11 +1,17 @@
 {
   "CreatePage": {
     "addNoteButton": "new UiSelector().className(\"android.widget.Button\").instance(3)",
-    "titleField": "android.widget.EditText",
-    "contentField": "new UiSelector().className(\"android.widget.EditText\").instance(1)",
+    "contentField": "new UiSelector().className(\"android.widget.EditText\").instance(0)",
     "saveButton": "Save",
+    "backButton": "new UiSelector().className(\"android.widget.Button\").instance(0)",
     "closeButton": "new UiSelector().text(\"CLOSE\")",
-    "title": "Alışveriş Listesi:",
+    "secondCloseButton": "new UiSelector().text(\"CLOSE\")",
     "content": "Süt, Yumurta, Ekmek"
+  },
+
+  "ReadPage": {
+    "actualNoteText": "new UiSelector().text(\"Süt, Yumurta, Ekmek\")",
+    "expectedNoteText": "Süt, Yumurta, Ekmek"
   }
+
 }
