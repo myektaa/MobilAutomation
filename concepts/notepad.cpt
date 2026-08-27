@@ -4,16 +4,17 @@
 # Notepad üzerinde Alışveriş Listesi başlığı ve Süt, Yumurta, Ekmek içeriği ile yeni bir not oluşturulur
 * Yeni not ekleme butonuna tıklanır
 * İçerik alanına Süt, Yumurta, Ekmek yazılır
-* Not kaydedilir, ana listeye dönülür ve not doğrulanır
+* Not kaydedilir ve ana listeye dönülür
+* Not doğrulanır
 
 # Oluşturulan Alışveriş Listesi başlıklı notun detayına gidilir
-* Listeden Alışveriş Listesi başlıklı nota tıklanır
-* Not detay sayfasında başlığın ve içeriğin eksiksiz geldiği doğrulanır
+* Listede eklenen nota tıklanır
+* Not detay sayfasında notun eksiksiz geldiği doğrulanır
 
 # Notun içeriği Süt, Yumurta, Ekmek, Peynir olarak güncellenir
 * Mevcut notun içerik alanı temizlenir
-* İçerik alanına Süt, Yumurta, Ekmek, Peynir yazılır
-* Güncellemeler kaydedilir
+* İçerik alanına Peynir, Zeytin, Domates yazılır
+* Güncellemeler kaydedilir ve ana sayfaya dönülür
 
 # Güncellenen not listeden seçilerek silinir
 * Listeden ilgili nota tıklanır

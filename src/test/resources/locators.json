@@ -10,8 +10,26 @@
   },
 
   "ReadPage": {
-    "actualNoteText": "new UiSelector().text(\"Süt, Yumurta, Ekmek\")",
-    "expectedNoteText": "Süt, Yumurta, Ekmek"
+    "actualNoteText": "android.widget.TextView",
+    "expectedNoteText": "Süt, Yumurta, Ekmek",
+    "listNoteDetail": "android.widget.TextView",
+    "checkNoteDetail": "android.widget.TextView"
+  },
+
+  "UpdatePage": {
+    "editButtonUpdate": "Edit",
+    "contentFieldUpdatePage": "android.widget.EditText",
+    "contentUpdate": "Peynir, Zeytin, Domates",
+    "saveButtonUpdate": "Save",
+    "backButtonUpdate": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+
+  "DeletePage": {
+    "deleteListNote": "android.widget.TextView",
+    "verifyList": "new UiSelector().text(\"Peynir, Zeytin, Domates\")",
+    "deleteButton": "Delete",
+    "deleteButton2": "new UiSelector().text(\"DELETE\")",
+    "deleteConfirmButton": "new UiSelector().className(\"android.widget.Button\").instance(1)"
   }
 
 }

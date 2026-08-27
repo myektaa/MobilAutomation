@@ -28,7 +28,6 @@ public class DriverManager {
         options.setAppActivity(config.getAppActivity());
 
         driver = new AndroidDriver(new URL(config.getAppiumServerUrl()),options);
-
     }
 
     public static AppiumDriver getDriver(){
