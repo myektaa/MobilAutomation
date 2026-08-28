@@ -1,17 +1,17 @@
 # Notepad uygulaması açılır
 * Uygulama cihaz üzerinde başlatılır
 
-# Notepad üzerinde Alışveriş Listesi başlığı ve Süt, Yumurta, Ekmek içeriği ile yeni bir not oluşturulur
+# Notepad üzerinde Süt, Yumurta, Ekmek içeriği ile yeni bir not oluşturulur
 * Yeni not ekleme butonuna tıklanır
 * İçerik alanına Süt, Yumurta, Ekmek yazılır
 * Not kaydedilir ve ana listeye dönülür
 * Not doğrulanır
 
-# Oluşturulan Alışveriş Listesi başlıklı notun detayına gidilir
+# Oluşturulan notun detayına gidilir
 * Listede eklenen nota tıklanır
 * Not detay sayfasında notun eksiksiz geldiği doğrulanır
 
-# Notun içeriği Süt, Yumurta, Ekmek, Peynir olarak güncellenir
+# Notun içeriği Peynir, Zeytin, Domates olarak güncellenir
 * Mevcut notun içerik alanı temizlenir
 * İçerik alanına Peynir, Zeytin, Domates yazılır
 * Güncellemeler kaydedilir ve ana sayfaya dönülür

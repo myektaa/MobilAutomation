@@ -3,12 +3,10 @@ package virgosol.tests.exc.driver;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import virgosol.tests.exc.config.AppiumConfig;
 import virgosol.tests.exc.config.ConfigReader;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 public class DriverManager {

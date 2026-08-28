@@ -1,9 +1,7 @@
 package virgosol.tests.exc.stepImplementation;
 
 import com.thoughtworks.gauge.Step;
-import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.WebElement;
 import virgosol.tests.exc.driver.DriverManager;
 import virgosol.tests.exc.pages.CreatePage;
 import virgosol.tests.exc.pages.DeletePage;
